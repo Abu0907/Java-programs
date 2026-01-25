@@ -6,6 +6,7 @@ public class checkpalindrome {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("enter a number : ");
 		int real = sc.nextInt();
+		sc.close();
 		int orginal = real;
 		int reverse = 0;
 		while(real != 0) {
