@@ -6,6 +6,7 @@ public class checkStrongnumber {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("enter a number : ");
 		int num = sc.nextInt();
+		sc.close();
 		int orginal = num;
 		int result = 0;
 		while(num != 0) {

@@ -6,6 +6,7 @@ public class checkfactorial {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a number : ");
 		int num = sc.nextInt();
+		sc.close();
 		int factnum = 1;
 		for(int i=1; i<=num; i++) {
 			factnum *=i;

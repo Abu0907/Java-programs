@@ -19,6 +19,7 @@ public class CountEvenandOddInArray {
 				odd++;
 			}
 		}
+		sc.close();
 		System.out.println("Even count : "+even+" , Odd count : "+odd);
 	}
 }

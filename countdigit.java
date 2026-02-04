@@ -5,6 +5,7 @@ public class countdigit {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("enter a number : ");
 	    long n = sc.nextLong();
+		sc.close();
 		int c = 0;
 		while(n != 0) {
 			c++;

@@ -5,6 +5,7 @@ public class checkprimenum {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("enter a number:");
 		int n = sc.nextInt();
+		sc.close();
 		int m = 0;
 		for(int i=2;i<n;i++) {
 			if(n % i == 0) {

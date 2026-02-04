@@ -5,6 +5,7 @@ public class checkposneg{
 		Scanner sc = new Scanner(System.in);
 		System.out.print("enter a number : ");
 		int num = sc.nextInt();
+		sc.close();
 		if(num < 0) {
 			System.out.print("given number is negative");
 		}

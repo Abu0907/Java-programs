@@ -6,6 +6,7 @@ public class CountVowelInString {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Enter a word : ");
 		String data = sc.nextLine();
+		sc.close();
 		String duplicatedata = data.toLowerCase();
 		int vowel = 0,consonant = 0;
 		for(int i =0;i < duplicatedata.length();i++) {
